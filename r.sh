@@ -1,3 +1,4 @@
 
  # flask run --host=0.0.0.0 --port=3000
- sudo poetry run python3 app.py
+ $HOME/.local/bin/poetry install
+ sudo $HOME/.local/bin/poetry run python3 app.py
