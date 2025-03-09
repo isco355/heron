@@ -3,7 +3,7 @@ from helpers.coordinates import currentCoordinates
 import subprocess
 app = Flask(__name__)
 
-subprocess.Popen(["sudo", "python3", "./helpers/camera.py", " &"])
+subprocess.Popen(["sudo", "python3", "./helpers/livestream/camera.py", " &"])
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=False)
